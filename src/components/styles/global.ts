@@ -6,4 +6,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0%;
         box-sizing: border-box;
     }
+
+    #root {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
 `;
