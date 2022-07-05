@@ -1,5 +1,10 @@
 import { NavbarDesign } from './style';
 
 export const Navbar = () => {
-    return <NavbarDesign>Navbar</NavbarDesign>;
+    return (
+        <NavbarDesign>
+            <div>X</div>
+            <div>º</div>
+        </NavbarDesign>
+    );
 };
