@@ -1,5 +1,13 @@
 import { ClockDesign } from './style';
 
 export const Clock = () => {
-    return <ClockDesign>Clock</ClockDesign>;
+    return (
+        <ClockDesign>
+            <div>
+                <svg>
+                    <g></g>
+                </svg>
+            </div>
+        </ClockDesign>
+    );
 };

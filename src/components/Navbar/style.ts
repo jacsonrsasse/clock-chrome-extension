@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NavbarDesign = styled.nav`
-    background-color: #15191d;
+    background-color: ${(props) => props.theme['bg-main']};
     width: 100vw;
     height: 100%;
     padding: 0 2.75rem;
@@ -21,7 +21,7 @@ export const NavbarDesign = styled.nav`
             position: absolute;
             width: 2rem;
             height: 0.3rem;
-            background: #babbbc;
+            background: ${(props) => props.theme['bg-nav-items']};
             transition: 0.6s;
         }
 
@@ -68,9 +68,9 @@ export const NavbarDesign = styled.nav`
                 display: block;
                 width: 3.125rem;
                 height: 1.5rem;
-                border: 1px solid #babbbc;
+                border: 1px solid ${(props) => props.theme['bg-nav-items']};
                 border-radius: 30px;
-                background-color: #babbbc;
+                background-color: ${(props) => props.theme['bg-nav-items']};
                 user-select: none;
                 cursor: pointer;
             }
@@ -83,7 +83,7 @@ export const NavbarDesign = styled.nav`
             display: inline-block;
             width: 15px;
             height: 15px;
-            background-color: black;
+            background-color: ${(props) => props.theme['bg-main']};
             border-radius: 50%;
             left: 5px;
             z-index: 10;
